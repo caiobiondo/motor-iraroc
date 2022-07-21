@@ -1,10 +1,12 @@
 from flask import Flask, jsonify
 from flask import request
 from flask import Response
+from pyHEC import PyHEC
 ###IMPORT MODULO CORS PARA TRATAMENTO DE ERRO NO HUB###
 #from flask_cors import CORS, cross_origin
 import json
 import ast
+import logging
 from urllib.parse import urlparse
 from urllib.parse import parse_qs
 from Objetos.Tela import Tela
@@ -21,8 +23,18 @@ from Abas.Aba_operacao import *
 from Abas.Aba_risco import *
 from ToolKitDB.Mitigacao_kreg import *
 app = Flask(__name__)
-###TRATAMENTO DO ERRO CORS PARA SERVER DO HUB###
-#CORS(app)
+
+
+logging.basicConfig(filename='record.log', level=logging.DEBUG,
+                    format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+
+
+hec = PyHEC("4a688801-9005-4296-ae0d-1ce56de4bd2c", "http://localhost")
+event = {"/calc_raroc_py/calculaRaroc_planilha": "observabilitty-raroc", "POST":"motorIraroc-v1"}
+hec.send(event)
+hec.send(logging.DEBUG)
+hec.send(get_lista_fpr())
+
 
 @app.route("/calc_raroc_py/calculaRaroc_planilha", methods=["POST"])
 def json_handler_planilha():
@@ -31,6 +43,7 @@ def json_handler_planilha():
     meta = '{}'
     resultado = calcula_raroc(tela_json, meta)
     return str(resultado)
+
 
 @app.route("/calc_raroc_py/calculaFluxo_planilha", methods=["POST"])
 def monta_fluxo_planilha():
@@ -72,6 +85,8 @@ def monta_fluxo():
 #ABA RISCO
 @app.route("/calc_raroc_py/fpr", methods=["GET"])
 def get_fpr():
+    app.logger.info('Info level log')
+    app.logger.warning('Warning level log')
     url = request.full_path
     parsed_url = urlparse(url)
     if(not(parsed_url[4] == '')): 

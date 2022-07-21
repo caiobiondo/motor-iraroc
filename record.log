@@ -1,0 +1,164 @@
+
+2022-07-18 19:43:28,717 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-18 19:43:55,363 INFO app Thread-1 : Info level log
+2022-07-18 19:43:55,363 WARNING app Thread-1 : Warning level log
+2022-07-18 19:43:55,375 INFO werkzeug Thread-1 : 127.0.0.1 - - [18/Jul/2022 19:43:55] "[35m[1mGET /calc_raroc_py/risco HTTP/1.1[0m" 500 -
+2022-07-18 19:43:55,388 INFO werkzeug Thread-2 : 127.0.0.1 - - [18/Jul/2022 19:43:55] "GET /calc_raroc_py/risco?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-18 19:43:55,394 INFO werkzeug Thread-3 : 127.0.0.1 - - [18/Jul/2022 19:43:55] "GET /calc_raroc_py/risco?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-18 19:43:55,428 INFO werkzeug Thread-4 : 127.0.0.1 - - [18/Jul/2022 19:43:55] "GET /calc_raroc_py/risco?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-18 19:43:55,453 INFO werkzeug Thread-5 : 127.0.0.1 - - [18/Jul/2022 19:43:55] "GET /calc_raroc_py/risco?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-18 19:44:01,155 INFO werkzeug Thread-6 : 127.0.0.1 - - [18/Jul/2022 19:44:01] "[33mGET /calc_raroc_py/risco/ HTTP/1.1[0m" 404 -
+2022-07-18 19:44:01,178 INFO werkzeug Thread-7 : 127.0.0.1 - - [18/Jul/2022 19:44:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-07-18 19:44:05,643 INFO app Thread-8 : Info level log
+2022-07-18 19:44:05,643 WARNING app Thread-8 : Warning level log
+2022-07-18 19:44:05,647 INFO werkzeug Thread-8 : 127.0.0.1 - - [18/Jul/2022 19:44:05] "[35m[1mGET /calc_raroc_py/risco HTTP/1.1[0m" 500 -
+2022-07-18 19:44:05,655 INFO werkzeug Thread-9 : 127.0.0.1 - - [18/Jul/2022 19:44:05] "GET /calc_raroc_py/risco?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-18 19:44:05,656 INFO werkzeug Thread-10 : 127.0.0.1 - - [18/Jul/2022 19:44:05] "GET /calc_raroc_py/risco?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-18 19:44:05,662 INFO werkzeug Thread-11 : 127.0.0.1 - - [18/Jul/2022 19:44:05] "GET /calc_raroc_py/risco?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-18 19:44:44,511 INFO werkzeug Thread-12 : 127.0.0.1 - - [18/Jul/2022 19:44:44] "GET /calc_raroc_py/fpr HTTP/1.1" 200 -
+2022-07-18 19:45:35,203 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-18 19:45:46,118 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-18 19:45:53,420 INFO app Thread-1 : Info level log
+2022-07-18 19:45:53,420 WARNING app Thread-1 : Warning level log
+2022-07-18 19:45:53,421 INFO werkzeug Thread-1 : 127.0.0.1 - - [18/Jul/2022 19:45:53] "GET /calc_raroc_py/fpr HTTP/1.1" 200 -
+2022-07-18 19:46:08,614 INFO werkzeug Thread-2 : 127.0.0.1 - - [18/Jul/2022 19:46:08] "[33mGET /calc_raroc_py/fpr/ HTTP/1.1[0m" 404 -
+2022-07-18 19:46:12,053 INFO app Thread-3 : Info level log
+2022-07-18 19:46:12,053 WARNING app Thread-3 : Warning level log
+2022-07-18 19:46:12,053 INFO werkzeug Thread-3 : 127.0.0.1 - - [18/Jul/2022 19:46:12] "GET /calc_raroc_py/fpr HTTP/1.1" 200 -
+2022-07-18 19:46:30,714 INFO app Thread-4 : Info level log
+2022-07-18 19:46:30,715 WARNING app Thread-4 : Warning level log
+2022-07-18 19:46:30,716 INFO werkzeug Thread-4 : 127.0.0.1 - - [18/Jul/2022 19:46:30] "GET /calc_raroc_py/fpr HTTP/1.1" 200 -
+2022-07-20 23:51:48,152 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-20 23:52:51,372 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-20 23:52:51,373 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-20 23:52:51,386 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-21 00:24:06,603 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:24:06,604 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:24:06,617 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-21 00:26:45,820 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:26:45,820 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 400 64
+2022-07-21 00:26:45,833 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-21 00:29:42,331 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:29:42,332 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:29:42,353 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-21 00:31:42,497 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:31:42,498 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:31:42,499 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:31:42,500 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:31:42,513 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-21 00:33:50,287 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:33:50,288 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:33:50,289 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:33:50,290 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:33:50,291 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:33:50,291 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:33:50,304 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-21 00:39:35,108 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:39:35,109 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:39:35,110 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:39:35,110 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:39:35,111 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:39:35,112 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:39:35,125 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-21 00:43:03,316 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:43:03,317 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:43:03,318 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:43:03,318 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:43:03,319 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:43:03,320 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:43:03,321 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:43:03,321 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 400 64
+2022-07-21 00:43:03,334 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-21 00:44:31,735 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:44:31,736 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:44:31,737 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:44:31,738 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:44:31,738 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:44:31,739 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:44:31,740 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:44:31,740 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 400 64
+2022-07-21 00:44:31,753 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-21 00:46:24,349 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:46:24,350 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:46:24,351 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:46:24,352 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:46:24,353 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:46:24,353 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:46:52,423 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:46:52,424 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:46:52,425 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:46:52,425 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:46:52,426 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:46:52,426 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:47:11,825 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:47:11,826 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:47:11,827 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:47:11,827 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:47:11,828 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:47:11,829 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:47:21,203 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:47:21,204 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:47:21,205 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:47:21,205 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:47:21,206 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:47:21,207 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 00:47:21,208 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 00:47:21,208 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 400 64
+2022-07-21 00:47:21,221 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-21 01:06:14,166 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 01:06:14,167 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 01:06:14,168 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 01:06:14,168 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 01:06:14,169 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 01:06:14,170 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 01:06:14,182 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-21 01:06:38,832 INFO app Thread-1 : Info level log
+2022-07-21 01:06:38,832 WARNING app Thread-1 : Warning level log
+2022-07-21 01:06:38,833 INFO werkzeug Thread-1 : 127.0.0.1 - - [21/Jul/2022 01:06:38] "GET /calc_raroc_py/fpr HTTP/1.1" 200 -
+2022-07-21 01:06:38,854 INFO werkzeug Thread-2 : 127.0.0.1 - - [21/Jul/2022 01:06:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-07-21 01:07:46,627 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 01:07:46,628 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 01:07:46,629 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 01:07:46,630 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 01:08:01,383 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 01:08:01,384 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 01:08:01,385 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 01:08:01,386 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 01:08:01,387 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 01:08:01,387 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 01:08:01,400 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+2022-07-21 01:08:08,035 INFO app Thread-1 : Info level log
+2022-07-21 01:08:08,035 WARNING app Thread-1 : Warning level log
+2022-07-21 01:08:08,035 INFO werkzeug Thread-1 : 127.0.0.1 - - [21/Jul/2022 01:08:08] "GET /calc_raroc_py/fpr HTTP/1.1" 200 -
+2022-07-21 01:08:11,583 INFO app Thread-2 : Info level log
+2022-07-21 01:08:11,583 WARNING app Thread-2 : Warning level log
+2022-07-21 01:08:11,583 INFO werkzeug Thread-2 : 127.0.0.1 - - [21/Jul/2022 01:08:11] "GET /calc_raroc_py/fpr HTTP/1.1" 200 -
+2022-07-21 01:09:53,216 INFO werkzeug Thread-4 : 127.0.0.1 - - [21/Jul/2022 01:09:53] "[35m[1mGET /calc_raroc_py/rating HTTP/1.1[0m" 500 -
+2022-07-21 01:09:53,237 INFO werkzeug Thread-5 : 127.0.0.1 - - [21/Jul/2022 01:09:53] "GET /calc_raroc_py/rating?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-21 01:09:53,238 INFO werkzeug Thread-6 : 127.0.0.1 - - [21/Jul/2022 01:09:53] "GET /calc_raroc_py/rating?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-21 01:09:53,266 INFO werkzeug Thread-7 : 127.0.0.1 - - [21/Jul/2022 01:09:53] "GET /calc_raroc_py/rating?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-21 01:09:53,286 INFO werkzeug Thread-8 : 127.0.0.1 - - [21/Jul/2022 01:09:53] "GET /calc_raroc_py/rating?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-21 01:10:06,358 INFO werkzeug Thread-9 : 127.0.0.1 - - [21/Jul/2022 01:10:06] "[35m[1mGET /calc_raroc_py/risco HTTP/1.1[0m" 500 -
+2022-07-21 01:10:06,365 INFO werkzeug Thread-10 : 127.0.0.1 - - [21/Jul/2022 01:10:06] "GET /calc_raroc_py/risco?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-21 01:10:06,366 INFO werkzeug Thread-11 : 127.0.0.1 - - [21/Jul/2022 01:10:06] "GET /calc_raroc_py/risco?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-21 01:10:06,466 INFO werkzeug Thread-12 : 127.0.0.1 - - [21/Jul/2022 01:10:06] "GET /calc_raroc_py/risco?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-21 01:10:18,495 INFO werkzeug Thread-13 : 127.0.0.1 - - [21/Jul/2022 01:10:18] "[35m[1mGET /calc_raroc_py/volatilidade HTTP/1.1[0m" 500 -
+2022-07-21 01:10:18,505 INFO werkzeug Thread-14 : 127.0.0.1 - - [21/Jul/2022 01:10:18] "GET /calc_raroc_py/volatilidade?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-21 01:10:18,505 INFO werkzeug Thread-15 : 127.0.0.1 - - [21/Jul/2022 01:10:18] "GET /calc_raroc_py/volatilidade?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-21 01:10:18,510 INFO werkzeug Thread-16 : 127.0.0.1 - - [21/Jul/2022 01:10:18] "GET /calc_raroc_py/volatilidade?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-21 01:10:18,518 INFO werkzeug Thread-17 : 127.0.0.1 - - [21/Jul/2022 01:10:18] "GET /calc_raroc_py/volatilidade?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-21 01:10:31,858 INFO werkzeug Thread-18 : 127.0.0.1 - - [21/Jul/2022 01:10:31] "[35m[1mGET /calc_raroc_py/garantias_cea/instrumento HTTP/1.1[0m" 500 -
+2022-07-21 01:10:31,879 INFO werkzeug Thread-19 : 127.0.0.1 - - [21/Jul/2022 01:10:31] "GET /calc_raroc_py/garantias_cea/instrumento?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-21 01:10:31,879 INFO werkzeug Thread-20 : 127.0.0.1 - - [21/Jul/2022 01:10:31] "GET /calc_raroc_py/garantias_cea/instrumento?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-21 01:10:31,886 INFO werkzeug Thread-21 : 127.0.0.1 - - [21/Jul/2022 01:10:31] "GET /calc_raroc_py/garantias_cea/instrumento?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-21 01:10:31,891 INFO werkzeug Thread-22 : 127.0.0.1 - - [21/Jul/2022 01:10:31] "GET /calc_raroc_py/garantias_cea/instrumento?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-21 01:10:43,127 INFO app Thread-23 : Info level log
+2022-07-21 01:10:43,127 WARNING app Thread-23 : Warning level log
+2022-07-21 01:10:43,127 INFO werkzeug Thread-23 : 127.0.0.1 - - [21/Jul/2022 01:10:43] "GET /calc_raroc_py/fpr HTTP/1.1" 200 -
+2022-07-21 01:12:34,574 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 01:12:34,575 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 01:12:34,576 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 01:12:34,576 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 01:12:34,577 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): localhost:8088
+2022-07-21 01:12:34,578 DEBUG urllib3.connectionpool MainThread : http://localhost:8088 "POST /services/collector/event HTTP/1.1" 200 27
+2022-07-21 01:12:34,590 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
